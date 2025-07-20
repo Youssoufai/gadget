@@ -26,7 +26,7 @@ export default function HeroSection() {
                 {/* Image section */}
                 <div className="flex justify-center">
                     <Image
-                        src="/iphone12.png" // Make sure to place this image in /public folder
+                        src="/images/home-hero-image.jpg" // Make sure to place this image in /public folder
                         alt="iPhone 12 Pro"
                         width={600}
                         height={600}
