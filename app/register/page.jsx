@@ -17,6 +17,9 @@ export default function RegisterPage() {
     }
     const handleSubmit = (e) => {
         e.preventDefault();
+        localStorage.setItem('formData', JSON.stringify(formData));
+
+
         console.log(formData.name)
         console.log(formData.email)
         console.log(formData.name)
